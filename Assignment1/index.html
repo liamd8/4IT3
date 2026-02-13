@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liam Durrant | Professional Portfolio</title>
+    
+    <style>
+        :root {
+            --primary-blue: #003566;
+            --accent-gold: #ffc300;
+            --bg-light: #f4f4f9;
+            --text-main: #333;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: var(--bg-light);
+            color: var(--text-main);
+        }
+
+        header {
+            background-color: var(--primary-blue);
+            color: white;
+            padding: 2rem 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .profile-img {
+            border: 4px solid var(--accent-gold);
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            max-width: 200px;
+            height: auto;
+        }
+
+        .header-name {
+            font-family: "Times New Roman", Times, serif;
+            font-style: italic;
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        nav {
+            background: #222;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: var(--accent-gold);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            font-family: "Times New Roman", Times, serif;
+            border-bottom: 2px solid var(--primary-blue);
+            padding-bottom: 5px;
+            color: var(--primary-blue);
+        }
+
+        .work-responsibilities {
+            margin-left: 20px;
+            list-style-type: square;
+        }
+
+        /* Responsive adjustments for Mobile */
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+                padding: 20px;
+            }
+            .header-name {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="my-picture.jpg" alt="Liam Durrant Profile Picture" class="profile-img">
+        <h1 class="header-name">Liam Durrant</h1>
+        <p>B.Tech Automation in Smart Systems Student</p>
+    </header>
+
+    <nav>
+        <a href="#bio">About</a>
+        <a href="#education">Education</a>
+        <a href="#technical">Technical Experience</a>
+        <a href="#professional">Professional Experience</a>
+        <a href="#foundational">Foundational Work</a>
+    </nav>
+
+    <div class="container">
+        
+        <section id="bio">
+            <h2>About</h2>
+            <p>
+                I am an aspiring Automation Engineer with a strong foundation in smart systems and full-stack development. 
+                My experience ranges from industrial-scale robotics with FRC Team 1114 to developing software solutions in 
+                global organizations.</p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p>
+                <b>McMaster University</b><br>
+                Bachelor of Technology, Automation Systems Engineering Technology<br>
+                Hamilton, ON<br>
+                September 2022 - Present<br><br>
+                <b>Governor Simcoe Secondary School</b><br>
+                St Catharines, ON<br>
+                September 2018 - June 2022
+                </p>
+            </section>
+        <section id="technical">
+            <h2>Technical Experience</h2>
+            <p>
+                <b>Alumni Mentor, Team 1114 - Simbotics, <i>FIRST</i> Robotics</b><br>
+                St Catharines, ON<br>
+                September 2018 - April 2025
+                <ul>
+                    <li>Invited to return as a mentor after completing a tenure as a student in 2022</li>
+                    <li>Assisted on weekends and evenings contributing to team operations</li>
+                    <li>Contributed to designing, manufacturing, and assembling multiple award winning robots</li>
+                    <li>Mentored high school students in CAD design, CNC operation, and manual machining to 0.005” tolerances</li>
+                </ul>
+            </p>
+        </section>
+
+        <section id="professional">
+            <h2>Professional Experience</h2>
+            <p>
+                <b>Jr. Full-Stack Software Developer, Gustazos</b><br>
+                Remote<br>
+                January 2025 - August 2025
+                <ul>
+                    <li>Engineered solutions using systematic debugging to resolve complex software issues, directly transferable to troubleshooting industrial automation and PLC systems</li>
+                    <li>Collaborated with teams across a global organization</li>
+                </ul>
+            </p>
+        </section>
+         <p>
+        <section id="foundational">
+            <h2>Foundational Work</h2>
+                <b>Crew Person, McDonald's Canada</b><br>
+                St Catharines, ON<br>
+                June 2021 - July 2023
+                <ul>
+                    <li>Maintained compliance with health and safety standards in a fast-paced kitchen environment</li>
+                    <li>Received and handled supply deliveries in an efficient and safe manner</li>
+                </ul>
+            </p>
+                <p><b>Busperson/Host, McDonald's Canada</b><br>
+                Niagara Falls, ON<br>
+                June 2019 - October 2020
+                <ul>
+                    <li>Cleared tables in timely fashion to allow high guest throughput</li>
+                    <li>Responded to guest inquiries</li>
+                </ul>
+            </p>
+        </section>
